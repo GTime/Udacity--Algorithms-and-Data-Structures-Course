@@ -40,16 +40,16 @@ else:<br>
     return "No, thank you."<br>
 ```  
 # Loops
-
+```python
 for item in list:<br>
     print item<br>
 
 while (total < max_val):<br>
     total += values[i]<br>
     i += 2<br>
-    
+```
 # Functions
-
+```python
 def divide(dividend, divisor):<br>
     quotient = dividend / divisor<br>
     remainder = dividend % divisor<br>
@@ -58,9 +58,9 @@ def divide(dividend, divisor):<br>
 def calculate_stuff(x, y):<br>
     (q, r) = divide(x,y)<br>
     print q, r<br>
-    
+```    
 # Classes
-
+```python
 class Person(object):<br>
     def __init__(self, name, age):<br>
         self.name = name<br>
