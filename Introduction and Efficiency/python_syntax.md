@@ -10,19 +10,19 @@
 # Remember values, not variables, have data types.
 # A variable can be reassigned to contain a different data type.
 
-answer = 42 <br>
-answer = "The answer is 42." <br>
+answer = 42 
+answer = "The answer is 42." 
 ```
 # Data Types
 
 ```python
-boolean = True<br>
-number = 1.1<br>
-string = "Strings can be declared with single or double quotes."<br>
-list = ["Lists can have", 1, 2, 3, 4, "or more types together!"]<br>
-tuple = ("Tuples", "can have", "more than", 2, "elements!")<br>
-dictionary = {'one': 1, 'two': 2, 'three': 3}<br>
-variable_with_zero_data = None<br>
+boolean = True
+number = 1.1
+string = "Strings can be declared with single or double quotes."
+list = ["Lists can have", 1, 2, 3, 4, "or more types together!"]
+tuple = ("Tuples", "can have", "more than", 2, "elements!")
+dictionary = {'one': 1, 'two': 2, 'three': 3}
+variable_with_zero_data = None
 ```
 # Simple Logging
 
@@ -32,40 +32,40 @@ print ("Printed!")
 # Conditionals
 
 ```python
-if cake == "delicious":<br>
-    return "Yes please!"<br>
-elif cake == "okay":<br>
-    return "I'll have a small piece."<br>
-else:<br>
-    return "No, thank you."<br>
+if cake == "delicious":
+    return "Yes please!"
+elif cake == "okay":
+    return "I'll have a small piece."
+else:
+    return "No, thank you."
 ```  
 # Loops
 ```python
-for item in list:<br>
-    print item<br>
+for item in list:
+    print item
 
-while (total < max_val):<br>
-    total += values[i]<br>
-    i += 2<br>
+while (total < max_val):
+    total += values[i]
+    i += 2
 ```
 # Functions
 ```python
-def divide(dividend, divisor):<br>
-    quotient = dividend / divisor<br>
-    remainder = dividend % divisor<br>
-    return quotient, remainder<br>
+def divide(dividend, divisor):
+    quotient = dividend / divisor
+    remainder = dividend % divisor
+    return quotient, remainder
 
-def calculate_stuff(x, y):<br>
-    (q, r) = divide(x,y)<br>
-    print q, r<br>
+def calculate_stuff(x, y):
+    (q, r) = divide(x,y)
+    print q, r
 ```    
 # Classes
 ```python
-class Person(object):<br>
-    def __init__(self, name, age):<br>
-        self.name = name<br>
-        self.age = age <br>
+class Person(object):
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age 
 
-    def birthday(self):<br>
-        self.age += 1<br>
+    def birthday(self):
+        self.age += 1
 ```
