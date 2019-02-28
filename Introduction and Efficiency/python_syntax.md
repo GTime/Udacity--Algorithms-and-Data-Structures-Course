@@ -27,13 +27,13 @@ variable_with_zero_data = None<br>
 print ("Printed!")
 
 # Conditionals
-
+```python
 if cake == "delicious":<br>
-    <p>return "Yes please!"<br>
+    return "Yes please!"<br>
 elif cake == "okay":<br>
-    <p>return "I'll have a small piece."<br>
+    return "I'll have a small piece."<br>
 else:<br>
-    <p>return "No, thank you."<br>
+    return "No, thank you."<br>
     
 # Loops
 
@@ -64,3 +64,4 @@ class Person(object):<br>
 
     def birthday(self):<br>
         self.age += 1<br>
+```
