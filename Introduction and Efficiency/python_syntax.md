@@ -29,11 +29,11 @@ print ("Printed!")
 # Conditionals
 
 if cake == "delicious":<br>
-    return "Yes please!"<br>
+    <p>return "Yes please!"<br>
 elif cake == "okay":<br>
-    return "I'll have a small piece."<br>
+    <p>return "I'll have a small piece."<br>
 else:<br>
-    return "No, thank you."<br>
+    <p>return "No, thank you."<br>
     
 # Loops
 
